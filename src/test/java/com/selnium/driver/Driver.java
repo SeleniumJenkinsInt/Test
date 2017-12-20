@@ -18,7 +18,7 @@ public class Driver {
   @BeforeClass
   public void beforeClass() {
 	  
-	  System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver.exe");
 	  driver = new FirefoxDriver();
 	  
   }
