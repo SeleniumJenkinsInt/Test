@@ -21,7 +21,7 @@ public class Driver {
 	  System.setProperty("webdriver.gecko.driver",path+"\\Driver\\geckodriver.exe");
 	  driver = new FirefoxDriver();
 	  
-	  System.out.println("driver open");
+	  System.out.println("Firefox driver open");
 	  
   }
  
